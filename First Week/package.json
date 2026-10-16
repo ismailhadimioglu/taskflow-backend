@@ -1,0 +1,20 @@
+{
+  "name": "taskflow-backend",
+  "version": "1.0.0",
+  "description": "TASKFLOW - Node.js ve Express.js ile geliştirilmiş Görev ve Proje Yönetim Sistemi REST API",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": ["nodejs", "express", "rest-api", "task-management"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
