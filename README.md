@@ -19,7 +19,7 @@ npm -v
 
 ### 1. Projeyi indirin
 ```bash
-git clone <REPO_URL>
+git clone https://github.com/ismailhadimioglu/taskflow-backend.git
 cd taskflow-backend
 ```
 > ZIP olarak indirdiyseniz arşivi açın ve klasörün içine terminalden girin.
@@ -47,17 +47,22 @@ TASKFLOW API http://localhost:3000 adresinde çalışıyor.
 ## Proje Yapısı
 ```
 taskflow-backend/
-├── src/
-│   ├── data/tasks.json
-│   ├── middleware/logger.js
-│   ├── controllers/taskController.js
-│   ├── routes/taskRoutes.js
-│   └── app.js
 ├── screenshots/
-├── PROJECT_SUMMARY.md
-├── README.md
+├── src/
+│   ├── controllers/
+│   │   └── taskController.js
+│   ├── data/
+│   │   └── tasks.json
+│   ├── middleware/
+│   │   └── logger.js
+│   ├── routes/
+│   │   └── taskRoutes.js
+│   └── app.js
 ├── .gitignore
-└── package.json
+├── package-lock.json
+├── package.json
+├── PROJECT_SUMMARY.md
+└── README.md
 ```
 
 ## API Endpoint'leri
